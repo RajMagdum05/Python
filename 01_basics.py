@@ -9,6 +9,9 @@ print(name) #Bro
 print("name") #name so whatever is there in "" it will print as it is
 
 print("Hello "+name) # Hello Bro
+print(f"Hello {name}") # f means formatting use { } placeholder when f is used
+#use f to write vaiable inside " " using { }
+# use f string if you are going to have variable inside print
 
 #to see datatype of a variable
 print(type(name)) # use type function
@@ -41,6 +44,18 @@ human = True #T and F are capital
 being = False # no "" bcz it will become string
 print("Are you a human: "+str(human)) # True
 print(type(human)) # bool
+
+name = "Raj"
+name = bool(name)
+print(name) #it will print True
+# so whatever is there in "" it will print True, if it is empty then only it prints False
+# so we can use this while taking name as input from user, so if he skips it then it will return false and msg like enter your name can be print
+name = input("Enter your Name: ")
+is_valid = bool(name)
+if is_valid:
+    print(f"Your name is {name}")
+else:
+    print("Enter Your name to proceed!")
 
 
 ##Multiple Assignment variables in one line
@@ -114,6 +129,7 @@ name = input("What is your name: ")
 age = int(input("How old are you: "))
 height = float(input("How tall are you: ")) #175 ->175.0 ghety
 
+# so age and height will store that input as astring so to store it in int or float we need to typecast them respectively.
 age += 1
 print("Hello "+name)
 print("You are "+str(age)+" years old.")
@@ -182,7 +198,7 @@ print(name[0:10:2]) # so start with index 0 and take every 2nd character
 #         -10 -9 -8 -7 -6 -5 -4 -3 -2 -1
 # so it will print mudgaM jaR
 
-## Using slice() function Negative indexing
+## Using slice() function and Negative indexing
 website1 = "http://google.com"
 website2 = "http://wikipedia.com"
 

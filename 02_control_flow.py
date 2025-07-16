@@ -1,5 +1,5 @@
 ## If statement
-#python have indentation means bydefault it will give you spaces so code looks clean
+#python have indentation means by default it will give you spaces so code looks clean
 
 age = int(input("Enter your age: "))
 
@@ -18,3 +18,8 @@ age == 100 #equal to
 
 ##Logical operators (and, or, not)
 #used to check if two or more conditional statements are true
+ # and -> both conditions needs to be true for true
+ # or -> any one is true then it will be true
+ # not -> makes it opposite
+ # not(True) = False
+temp = int(input("Enter Temperature: "))
