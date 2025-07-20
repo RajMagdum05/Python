@@ -37,13 +37,13 @@ for question in questions:
     
     question_num += 1
 
-print("Correct Answers are: ")
+print("Correct Answers are: ",end =" ")
 for answer in answers:
     print(answer, end=" " )
 
 print()
 
-print("Correct Guesses are: ")
+print("Correct Guesses are: ",end = " ")
 for guess in guesses:
     print(guess, end=" ")
 
