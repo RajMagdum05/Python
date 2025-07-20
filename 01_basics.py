@@ -1,3 +1,7 @@
+#.lower() is used to take both upper and lower case char from user
+# c and C both can be entered now.
+char = input("Enter Cahracter: ").lower()
+
 # printing in python
 print("Hello World") #don't include ; in python
 print("It's really good!!")
@@ -41,7 +45,7 @@ print("Your height is: "+str(height)+(" cm")) #Your height is: 250.5 cm
 
 #boolean
 human = True #T and F are capital
-being = False # no "" bcz it will become string
+being = False # no "False" bcz it will become string
 print("Are you a human: "+str(human)) # True
 print(type(human)) # bool
 
@@ -67,11 +71,14 @@ name, age, attractive = "Raj", 21, True
 raj = prasad = parth = 20 # so all have same value of same datatype
 
 #String methods
+# print(help(str)) -> It will print all the available string functions in python
 name = "bro Code"
 
 print(len(name)) #prints length of variable including spaces
 print(name.find("o")) # returns index which starts from 0 from left
 # so here it is 2 for o and 3 for space btw
+print(name.rfind("o")) # Last occurance of "o"
+# It will return -1 if he cant find char from " ".
 
 print(name.capitalize())
 #so it will capitalize only first letter in string and remaining all to small 
@@ -191,6 +198,9 @@ print(name[0:10:2]) # so start with index 0 and take every 2nd character
 #this 2 refers to step
 #print[::2] # R gm
 #means R then skip 1, skip 2 and then 3 print it like that
+
+#To reverse a string
+name[::-1] # step as -1
 
 #Reverse Slicing Negative Indexing
 #print[::-1] # it will start printing opp
