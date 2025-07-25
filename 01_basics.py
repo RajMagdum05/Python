@@ -73,7 +73,12 @@ raj = prasad = parth = 20 # so all have same value of same datatype
 #String methods
 # print(help(str)) -> It will print all the available string functions in python
 name = "bro Code"
+name.startwith("bro")
+name.endswith("e")
+if "Code" in file:
 
+# To remove anything in string
+name.replace("o", "")
 print(len(name)) #prints length of variable including spaces
 print(name.find("o")) # returns index which starts from 0 from left
 # so here it is 2 for o and 3 for space btw
