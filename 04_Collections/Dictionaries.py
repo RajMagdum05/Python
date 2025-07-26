@@ -40,8 +40,8 @@ print(values)
 for key in capitals.keys(): # capitals.keys() means function having keys in capitals dictionary
     print(key)
 
-for value in capitals.values():
-    print(value)
+for value in capitals.values(): # capitals.keys() and capitals.values() are to get all the keys or values in the dictionary
+    print(value) # capitals.get(key name) is to get value for that specific key
 
 # To print key value pair
 #items = capitals.items() dont need to write this
